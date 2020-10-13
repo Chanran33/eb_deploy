@@ -26,8 +26,8 @@ SECRET_KEY = 'a*dr3(3hq#r6s$&gl*a_02l2ux_#$q!_#0_%3c0nl)eo9cbioi'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['django-env.eba-fdru5apu.us-west-2.elasticbeanstalk.com']
-
+#ALLOWED_HOSTS = ['django-env.eba-fdru5apu.us-west-2.elasticbeanstalk.com']
+ALLOWED_HOSTS = ['kongnamu-env.eba-tnsppz2i.us-west-2.elasticbeanstalk.com']
 
 # Application definition
 
@@ -120,7 +120,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'en-us'
 
-TIME_ZONE = 'UTC'
+TIME_ZONE = 'Asia/Seoul'
 
 USE_I18N = True
 
